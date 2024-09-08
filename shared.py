@@ -46,12 +46,6 @@ class Player:
         return self.__dict__
     pass
 
-class PlayerDict:
-    def __init__(self):
-        player
-        pass
-    pass
-
 def attack(players, arena):
     for player in players:
         other_ids = [p for p in list(arena.pids)]
